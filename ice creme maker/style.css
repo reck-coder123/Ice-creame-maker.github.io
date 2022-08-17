@@ -58,26 +58,13 @@ body{
     visibility: hidden;
 
 }
-.tra1{
-    
-    width: 260px;
-    height: 2px;
-    background-color: brown;
-
-}
-.tra2{
-    width: 2px;
-    height:260px ;
-    background-color: brown;
-
-}
-.tra3{
-    width: 367.6955px;
-    height: 2px;
-    background-color: brown;
-    transform-origin:0 0;
-    transform:rotate(315deg);
-    
+.triangle{
+    width: 0;
+	height: 0;
+	border-left: 160px solid transparent;
+	border-right: 160px solid transparent;
+	border-top: 320px solid rgb(97, 12, 12);
+    border-radius: 16px;
 }
 .buton{
     display: inline;
