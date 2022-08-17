@@ -1,0 +1,103 @@
+body{
+    background-color: burlywood;
+}
+.layer{
+    position: absolute;
+    top: 50px;
+    bottom: 20px;
+    right: 250px;
+    left: 350px;
+    display: relative;
+    
+}
+#rect1{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 40px;
+    border-left: 20px;
+    visibility: hidden;
+
+}
+#rect2{
+    width:80px;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 40px;
+    visibility: hidden; 
+
+}
+#rect3{
+    width:120px;
+    height: 40px;
+    background-color: rgb(19, 199, 19);
+    border-radius: 40px;
+    visibility: hidden; 
+
+}
+#rect4{
+    width:160px;
+    height: 40px;
+    background-color: rgb(19, 67, 211);
+    border-radius: 40px; 
+    visibility: hidden;
+
+}
+#rect5{
+    width:200px;
+    height: 40px;
+    background-color: magenta;
+    border-radius: 40px;
+    visibility: hidden; 
+}
+#rect6{
+    width:240px;
+    height: 40px;
+    background-color: rgb(163, 20, 99);
+    border-radius: 40px;
+    visibility: hidden;
+
+}
+.tra1{
+    
+    width: 260px;
+    height: 2px;
+    background-color: brown;
+
+}
+.tra2{
+    width: 2px;
+    height:260px ;
+    background-color: brown;
+
+}
+.tra3{
+    width: 367.6955px;
+    height: 2px;
+    background-color: brown;
+    transform-origin:0 0;
+    transform:rotate(315deg);
+    
+}
+.buton{
+    display: inline;
+    padding: 20px;
+}
+#increment{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(29, 104, 169);
+    border-radius: 5px;
+    color: cornsilk;
+}
+#decrement{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(29, 104, 169);
+    border-radius: 5px;
+    color: cornsilk;
+}
+
+
+
+   
