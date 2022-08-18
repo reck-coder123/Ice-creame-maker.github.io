@@ -5,7 +5,7 @@ let btn2=document.getElementById("decrement");
 
 
 function ice(){
-    arr=[6,5,4,3,2,1];
+    arr=[6,5,4,3,2,1,1];
     arr1=[];
     btn1.addEventListener("click",function(){
         for(var i=0; i<arr.length; i++){
