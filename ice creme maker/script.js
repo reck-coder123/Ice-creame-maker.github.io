@@ -9,7 +9,7 @@ function ice(){
     arr1=[];
     btn1.addEventListener("click",function(){
         for(var i=0; i<arr.length; i++){
-            document.getElementById("rect"+arr[i]).style.visibility="visible";
+            document.getElementById("rect-"+arr[i]).style.visibility="visible";
             arr1.unshift(arr[i]);
             arr.shift();
             break;
@@ -19,7 +19,7 @@ function ice(){
 
     btn2.addEventListener("click",function(){
         for(var j=0; j<arr1.length;j++){
-            document.getElementById("rect"+arr1[j]).style.visibility="hidden";
+            document.getElementById("rect-"+arr1[j]).style.visibility="hidden";
             arr.unshift(arr1[j])
             arr1.shift();
             break;
