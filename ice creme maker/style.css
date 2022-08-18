@@ -94,17 +94,29 @@ body{
 }
 @media only screen and (max-width: 768px){
     [class*="rect-"] {
-        width: 50%;
+        width: 60%;
         
       }
     [class="triangle"]{
-        width: 50%;
+        width: 60%;
         
     }
     [class="head"]{
         width: 80%;
     }
     }
-
+@media only screen and (min-width: 769px) and (max-width: 1250px){
+        [class*="rect-"] {
+            width: 50%;
+            
+          }
+        [class="triangle"]{
+            width: 50%;
+            
+        }
+        [class="head"]{
+            width: 80%;
+        }
+        }
 
    
